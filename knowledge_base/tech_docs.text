@@ -1,0 +1,41 @@
+DOCUMENT: TECHNICAL ARCHITECTURE AND ENGINEERING GUIDELINES
+
+==================================================
+SECTION: ARCHITECTURE AND SYSTEM DESIGN
+==================================================
+- Architecture Model: Microservices with asynchronous event-driven communication powered by Kafka and RabbitMQ.
+- Local AI Inference: Uses Ollama running lightweight models (qwen3:4b, nomic-embed-text) communicating over OpenAI-compatible HTTP endpoints.
+- High Availability: All stateless backend services run in Kubernetes clusters spanning multiple availability zones with automated horizontal pod autoscaling (HPA).
+- Data Persistence: PostgreSQL for relational transactional data, Redis for distributed session caching, and ChromaDB for vector similarity indexing.
+
+==================================================
+SECTION: REPOSITORY AND BRANCHING STANDARDS
+==================================================
+- Version Control: GitHub Enterprise with protected main branches. Direct pushes to main are strictly prohibited.
+- Branch Naming Schema:
+  * Features: feat/<ticket-id>-short-summary (e.g., feat/APEX-312-ollama-streaming)
+  * Bug Fixes: fix/<ticket-id>-short-summary (e.g., fix/APEX-401-json-null-pointer)
+  * Hotfixes: hotfix/<ticket-id>-short-summary
+- Release Tags: Semantic Versioning (vMAJOR.MINOR.PATCH) applied automatically upon merging release branches.
+
+==================================================
+SECTION: CODE REVIEW AND TESTING CRITERIA
+==================================================
+- Review Turnaround: Code reviews must be completed within 24 business hours.
+- Approval Gates: At least two approving reviews required from repository code owners.
+- Test Coverage Threshold: Pull requests must demonstrate at least 80% line test coverage on newly added business logic.
+- Static Analysis: Ruff, Black, ESLint, and MyPy static checks must pass cleanly in pre-commit hooks and CI runs.
+
+==================================================
+SECTION: CI/CD PIPELINE AND DEPLOYMENTS
+==================================================
+- Pipeline Automation: GitHub Actions workflows trigger automated testing, linting, Docker image build, and vulnerability scanning upon PR creation.
+- Deployment Strategy: Automated canary deployments where new releases receive 5% traffic for 30 minutes before gradual 100% rollout.
+- Automated Rollbacks: If error rate exceeds 0.5% or P99 latency increases by more than 25% during canary evaluation, automated rollback initiates immediately.
+
+==================================================
+SECTION: MONITORING, OBSERVABILITY, AND LOGGING
+==================================================
+- Metrics: Prometheus scrape targets with Grafana dashboards providing real-time visibility into CPU, memory, and HTTP response distributions.
+- Structured Logging: All services must emit structured JSON logs to stdout including timestamp, trace_id, span_id, severity level, and component name.
+- Alerting: PagerDuty integrations trigger automated alerts for SEV-1 and SEV-2 incidents based on alerting rules defined in Prometheus Alertmanager.

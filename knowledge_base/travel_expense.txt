@@ -1,0 +1,38 @@
+DOCUMENT: BUSINESS TRAVEL AND EXPENSE REIMBURSEMENT POLICY
+
+==================================================
+SECTION: TRAVEL AUTHORIZATION POLICY
+==================================================
+- Pre-Approval Requirement: All business travel (domestic and international) requires written pre-approval from the Department Head and Finance Director at least 14 days before the departure date.
+- Business Justification: Travel requests must outline the direct business value, client meetings, conference speaking commitments, or cross-team collaboration objectives.
+- Corporate Travel Desk: All flight tickets, rail bookings, and corporate lodging reservations must be booked through the central travel portal (MakeMyTrip Corporate / Navan).
+
+==================================================
+SECTION: FLIGHT AND TRAIN TRAVEL GUIDELINES
+==================================================
+- Domestic Flights: Standard Economy class only. Preferred non-stop flights should be selected when the fare differential is under 15%.
+- International Flights: Economy class for flights with total travel time under 8 hours. Premium Economy or Business Class permitted for continuous flights exceeding 8 hours with VP approval.
+- Rail Travel: AC 1st Class or AC 2-Tier permitted for domestic official travel where train is the optimal route.
+
+==================================================
+SECTION: LODGING AND HOTEL PER DIEM
+==================================================
+- Tier-1 Metro Cities (Bangalore, Mumbai, Delhi-NCR, San Francisco, New York, London):
+  * Maximum nightly hotel room rate: INR 6,500 (India) / $220 (US/International) inclusive of taxes.
+- Tier-2 & Other Locations:
+  * Maximum nightly hotel room rate: INR 4,000 (India) / $150 (US/International) inclusive of taxes.
+- Direct Billing: Use partner hotels with direct corporate billing to avoid personal out-of-pocket room charges whenever possible.
+
+==================================================
+SECTION: DAILY MEAL AND INCIDENTALS ALLOWANCE
+==================================================
+- Per Diem Daily Meal Cap: Employees traveling on business can claim up to INR 1,800 ($65) per day for meals (breakfast, lunch, and dinner) during travel days.
+- Local Conveyance: Airport transfers, official Uber / Ola rides, and local transit fares are reimbursable with digital trip receipts.
+- Non-Reimbursable Expenses: Alcoholic beverages, hotel minibar snacks, personal laundry (unless trip exceeds 5 days), traffic citations, and flight cancellation insurance are non-reimbursable.
+
+==================================================
+SECTION: EXPENSE SUBMISSION AND REIMBURSEMENT TIMELINE
+==================================================
+- Submission Window: Expense reports must be submitted via Concur / HRMS within 15 calendar days of trip completion.
+- Receipt Requirements: Digital itemized receipts are mandatory for all individual expenses exceeding INR 500 ($10).
+- Payment Cycle: Finance processes verified expense reports within 7 business days of manager approval, directly depositing funds to the employee's designated salary account.

@@ -1,0 +1,39 @@
+DOCUMENT: INCIDENT MANAGEMENT AND ROOT CAUSE ANALYSIS (RCA)
+
+==================================================
+SECTION: INCIDENT SEVERITY LEVELS
+==================================================
+- SEV-1 (Critical Outage): Production service is completely down, core customer transaction flow is halted, or critical data loss is detected. Immediate 24/7 war room activation required.
+- SEV-2 (Major Degradation): High-impact service degradation, significant latency spike, or core feature unavailable for a substantial subset of users. Workaround may exist.
+- SEV-3 (Moderate / Minor): Low-impact bugs, non-critical admin tool defects, or isolated UI inconsistencies with minimal customer impact. Handled during normal sprint hours.
+
+==================================================
+SECTION: RCA TIMELINE AND RESPONSIBILITIES
+==================================================
+- Incident Commander: Owns communication during the incident and designates the primary RCA author.
+- Initial Incident Summary: Published to the #eng-incidents Slack channel within 2 hours of incident mitigation.
+- Draft RCA Document: Must be completed in the post-mortem repository within 48 business hours of incident resolution.
+- Post-Mortem Review Meeting: Held within 5 business days, attended by relevant engineering teams, product managers, and site reliability engineers.
+
+==================================================
+SECTION: THE 5 WHYS METHODOLOGY
+==================================================
+Engineers must use the Five Whys analysis to uncover systemic vulnerabilities rather than stopping at immediate human or software triggers:
+1. Why did the database fail? -> Connection pool exhaustion.
+2. Why was connection pool exhausted? -> Sudden query spike on unindexed user lookup table.
+3. Why was the lookup table unindexed? -> Migrations for feature flag rollout were executed out of order.
+4. Why were migrations executed out of order? -> CI/CD pipeline lacked sequential ordering validation.
+5. Why did CI/CD lack ordering validation? -> Deployment scripts were updated manually without automated verification gates.
+
+==================================================
+SECTION: CORRECTIVE AND PREVENTIVE ACTIONS (CAPA)
+==================================================
+- Action Item Ownership: Every RCA must produce tangible, assigned Action Items with specific target completion dates.
+- Jira Tracking: Action items are tagged with label `rca-action-item` and prioritized in the immediate next sprint.
+- Verification: The Security & Quality guild verifies closed action items during monthly architectural review boards.
+
+==================================================
+SECTION: BLAMELESS POST-MORTEM CULTURE
+==================================================
+- Principle: Human error is a symptom of fragile systems, not the cause. Post-mortems must never assign individual blame or reprimand employees for honest mistakes.
+- Focus: Post-mortems evaluate tooling, monitoring alerts, defensive engineering safeguards, rollback mechanisms, and operational procedures to ensure failure modes cannot reoccur.

@@ -1,0 +1,36 @@
+DOCUMENT: COMPREHENSIVE LEAVE AND ATTENDANCE POLICY
+
+==================================================
+SECTION: ANNUAL PAID LEAVE (PTO)
+==================================================
+- Entitlement: Full-time employees receive 22 days of paid time off per calendar year.
+- Accrual: PTO accrues on a monthly basis at 1.83 days per completed month of active service.
+- Carryover Rules: A maximum of 8 unused vacation days can be carried forward into the subsequent calendar year. Unused days beyond 8 will lapse automatically on December 31st.
+- Advance Notice: Planned leaves of 3 or more consecutive days require at least 1 week advance manager notification.
+
+==================================================
+SECTION: CASUAL AND SICK LEAVE
+==================================================
+- Allocation: 10 days of paid casual and sick leave per year, credited in advance on January 1st.
+- Consecutive Sick Days: If sick leave extends beyond 3 consecutive working days, a formal medical practitioner certificate must be uploaded to HRMS.
+- Carryover: Casual and sick leaves do not carry forward and cannot be encashed upon separation.
+
+==================================================
+SECTION: MATERNITY AND PATERNITY LEAVE
+==================================================
+- Maternity Leave: Female employees are eligible for 26 weeks (182 calendar days) of fully paid maternity leave for up to two surviving children. Leave can begin up to 8 weeks prior to the expected delivery date.
+- Paternity Leave: Male employees are entitled to 15 working days of fully paid paternity leave, usable within the first 6 months of childbirth.
+- Adoption Leave: Primary adopting parents receive 16 weeks of paid leave; secondary adopting parents receive 4 weeks of paid leave.
+
+==================================================
+SECTION: BEREAVEMENT AND COMPASSIONATE LEAVE
+==================================================
+- Duration: 5 consecutive working days of paid leave upon the passing of an immediate family member (spouse, child, parent, sibling, or parent-in-law).
+- Additional Days: Managers may approve up to 3 additional unpaid or vacation days if travel is necessary.
+
+==================================================
+SECTION: LEAVE APPLICATION AND APPROVAL WORKFLOW
+==================================================
+- Submission: All leave requests must be submitted through the self-service HRMS mobile app or web portal.
+- Approval SLA: Managers must approve or reject leave requests within 48 business hours.
+- Emergency Leave: In case of unexpected illness, notify your team lead via Slack or email by 9:30 AM local time on the day of absence.

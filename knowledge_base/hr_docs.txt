@@ -1,0 +1,35 @@
+DOCUMENT: HUMAN RESOURCES POLICIES AND PROCEDURES
+
+==================================================
+SECTION: EMPLOYEE CODE OF CONDUCT
+==================================================
+All employees must act with integrity, professionalism, and mutual respect. Apex Technologies maintains zero tolerance for discrimination, harassment, bullying, or unethical business practices. Employees are expected to protect company confidential data and report any conflicts of interest.
+
+==================================================
+SECTION: WORKING HOURS AND ATTENDANCE
+==================================================
+- Regular Schedule: Monday through Friday with flexible working hours based on an 8-hour workday.
+- Core Collaboration Window: 11:00 AM to 3:30 PM IST. Employees should remain accessible on Slack during this window for team synchronizations.
+- Attendance Logging: Employees must record planned time off and sickness in the HRMS portal to ensure team visibility.
+
+==================================================
+SECTION: PERFORMANCE MANAGEMENT AND APPRAISALS
+==================================================
+- Performance Cycles: Conducted bi-annually in June (Mid-year review) and December (Annual review).
+- Goal Setting (OKRs): Objectives and Key Results are agreed upon with managers at the start of each quarter.
+- 360-Degree Feedback: Peer and upward feedback are incorporated into annual performance evaluations.
+- Promotion Cycles: Formal promotion recommendations are evaluated during the annual review cycle.
+
+==================================================
+SECTION: GRIEVANCE REDRESSAL AND POSH POLICY
+==================================================
+- Prevention of Sexual Harassment (POSH): Apex Technologies enforces strict POSH compliance overseen by an Internal Complaints Committee (ICC).
+- Reporting Channels: Any employee can file a grievance directly to hr-support@apextech.example.com or confidentially to the ICC Presiding Officer.
+- Protection Against Retaliation: The company strictly prohibits any retaliation against individuals raising concerns in good faith.
+
+==================================================
+SECTION: SEPARATION AND RESIGNATION PROCESS
+==================================================
+- Notice Period: Standard notice period is 60 calendar days for full-time employees, unless mutually adjusted by department leadership.
+- Exit Clearance: Completing the exit checklist includes returning all IT assets, completing knowledge transfer documentation, and attending an exit interview.
+- Full and Final Settlement (FnF): Processed within 30 days of the last working day, including encashment of eligible leave balances.

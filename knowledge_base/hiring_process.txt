@@ -1,0 +1,37 @@
+DOCUMENT: HIRING PROCESS AND RECRUITING GUIDELINES
+
+==================================================
+SECTION: OVERVIEW AND PHILOSOPHY
+==================================================
+The hiring process at Apex Technologies is designed to evaluate technical depth, problem-solving capability, and alignment with our collaborative culture. We prioritize objective, structured interviews and seek candidates who demonstrate curiosity, resilience, and strong communication skills.
+
+==================================================
+SECTION: STAGES OF INTERVIEW PROCESS
+==================================================
+1. Recruiter Screen (30 mins): Initial discussion covering candidate background, career goals, role expectations, and compensation alignment.
+2. Technical Screen (60 mins): Live coding and problem-solving assessment focusing on data structures, algorithms, and practical debugging.
+3. System Design and Architecture (60 mins): For mid-to-senior levels, evaluates system scalability, database trade-offs, caching, and distributed systems.
+4. Hiring Manager Round (45 mins): Discussion on past projects, technical leadership, cross-functional collaboration, and team dynamics.
+5. Values and Culture Fit (45 mins): Behavioral interview assessing alignment with company values, conflict resolution, and feedback receptivity.
+
+==================================================
+SECTION: CANDIDATE EVALUATION AND SCORING
+==================================================
+- Standardized Rubrics: Every interviewer must complete a structured scorecard in the applicant tracking system within 24 hours of the interview.
+- Scoring Scale: Strong Hire, Hire, Leaning Hire, Leaning No Hire, Strong No Hire.
+- Debrief Meeting: A 30-minute debrief is scheduled if there are split recommendations among the hiring panel.
+
+==================================================
+SECTION: OFFER APPROVAL AND EXTENSION
+==================================================
+- Compensation Banding: Offers are benchmarked against industry percentiles to maintain internal equity across levels.
+- Background Verification: All candidate offers are contingent upon clear background verification (education, employment history, and criminal record check).
+- Formal Extension: The hiring manager and recruiter conduct an offer call followed by sending the official digital offer letter via DocuSign.
+
+==================================================
+SECTION: ONBOARDING HANDOVER
+==================================================
+Once an offer is accepted:
+1. Recruiter initiates the pre-onboarding workflow in the HR portal.
+2. IT receives automated notification to configure and dispatch the employee's workstation.
+3. Hiring Manager assigns an onboarding buddy to guide the new hire during their first 90 days.
