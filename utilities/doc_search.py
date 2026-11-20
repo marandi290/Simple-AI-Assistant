@@ -83,10 +83,11 @@ def test(user_query, documents, top_k=3):
 
 # Let's start testing
 documents = load_documents(KB_FOLDER)
-documents_with_embeddings = add_embeddings(documents)
+print(documents[0])  # Print the first document to verify loading
+#documents_with_embeddings = add_embeddings(documents)
 
-print(f"We have embedded {len(documents_with_embeddings)} documents from the knowledge base.")
+#print(f"We have embedded {len(documents_with_embeddings)} documents from the knowledge base.")
 
-user_query = "How many days I will get for maternity leaves?"
+#user_query = "How many days I will get for maternity leaves?"
 
-test(user_query, documents_with_embeddings, top_k=3)
+#test(user_query, documents_with_embeddings, top_k=3)
